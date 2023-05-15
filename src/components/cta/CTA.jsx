@@ -8,7 +8,7 @@ const CTA = () => (
       <h3>Register Today & start exploring the endless possibilities.</h3>
     </div>
     <div className="gpt3__cta-btn">
-      <button type="button">Get Started</button>
+      <button type="button" onClick={() => window.location.href = 'http://127.0.0.1:5173/'}>Get Started</button>
     </div>
   </div>
 );
